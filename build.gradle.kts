@@ -2,6 +2,7 @@ plugins {
     java
     scala
     application
+    scala
 }
 
 repositories {

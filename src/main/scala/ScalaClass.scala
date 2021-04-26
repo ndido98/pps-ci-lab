@@ -1,7 +1,7 @@
 
 class ScalaClass {
   def wrapMethod(): Unit = {
-    val c = new C()
-    c.hello()
+    val counter = new C()
+    counter.increment()
   }
 }

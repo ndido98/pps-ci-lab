@@ -1,5 +1,15 @@
 public class C {
-    public void hello() {
-        System.out.println("Hello World from C class");
+    private int count = 0;
+
+    public void increment() {
+        count++;
+    }
+
+    public int getCount() {
+        return this.count;
+    }
+
+    public void reset() {
+        this.count = 0;
     }
 }

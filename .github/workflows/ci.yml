@@ -16,4 +16,4 @@ jobs:
               with:
                   java-version: ${{ matrix.java-version }}
             - name: Build and test
-              run: ./gradlew clean  build
+              run: ./gradlew clean build
